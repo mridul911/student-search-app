@@ -92,7 +92,7 @@ public class FetchData extends AsyncTask<String, String, String> {
   @Override
   protected void onPostExecute(String result) {
     super.onPostExecute(result);
-    if(result == null) {
+      if(result == null) {
       mProgressDialog.dismiss();
       AlertDialog.Builder builder = new AlertDialog.Builder(context);
       builder.setMessage("Please connect to the internet and try again");

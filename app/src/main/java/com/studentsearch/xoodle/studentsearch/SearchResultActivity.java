@@ -154,7 +154,9 @@ public class SearchResultActivity extends AppCompatActivity {
                   + DbHelper.COLUMN_YEAR + "!=\"Y15\" " + "AND "
                   + DbHelper.COLUMN_YEAR + "!=\"Y16\" " + "AND "
                   + DbHelper.COLUMN_YEAR + "!=\"Y17\" " + "AND "
-                  + DbHelper.COLUMN_YEAR + "!=\"Y18\")";
+                  + DbHelper.COLUMN_YEAR + "!=\"Y18\" " + "AND "
+                  + DbHelper.COLUMN_YEAR + "!=\"Y19\" " + "AND "
+                  + DbHelper.COLUMN_YEAR + "!=\"Y20\")";
         }
         cursor = db.rawQuery(query, null);
         if (cursor.getCount() > 0) {

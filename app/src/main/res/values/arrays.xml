@@ -35,6 +35,9 @@
     </array>
     <array name="year_values">
         <item>Year</item>
+        <item>Y20</item>
+        <item>Y19</item>
+        <item>Y18</item>
         <item>Y17</item>
         <item>Y16</item>
         <item>Y15</item>
